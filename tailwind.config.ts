@@ -11,6 +11,11 @@ const config: Config = {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        primary: '#150050',
+        base: '#F4F4F4',
+      },
+
       fontFamily: {
         montserrat: ['var(--montserrat)', 'sans-serif'],
       },
@@ -78,6 +83,12 @@ const config: Config = {
 
       // You can also add classes that show up in the intellisense
       addComponents({
+        '.display-1': {
+          fontSize: '64px',
+          lineHeight: '74px',
+          letterSpacing: '-0.89px',
+          fontWeight: '700',
+        },
         '.flex-center': {
           display: 'flex',
           justifyContent: 'center',

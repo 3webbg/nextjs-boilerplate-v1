@@ -31,7 +31,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {/* the header and the footer are passed here since they are the same on every page */}
           <MainHeader />
-          {/* this is what the page.tsx file returnes */}
+          {/* this is what the page.tsx file returns */}
           {children}
           <MainFooter />
         </ThemeProvider>
