@@ -10,7 +10,7 @@ type MainHeaderProps = React.DetailedHTMLProps<
 > & {}
 
 const links = [
-  { name: 'Link', href: '#', target: '_self' },
+  { name: 'Blog', href: '/blog', target: '_self' },
   { name: 'Link', href: '#', target: '_self' },
   { name: 'Link', href: '#', target: '_self' },
   { name: 'Link', href: '#', target: '_self' },
